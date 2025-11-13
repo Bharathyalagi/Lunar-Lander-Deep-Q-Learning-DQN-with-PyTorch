@@ -56,4 +56,27 @@ source venv/bin/activate
 
 # Windows PowerShell
 venv\Scripts\Activate.ps1
+```
+
+### 2. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+If you have a CUDA GPU and want to train faster, install the appropriate PyTorch version from pytorch.org
+.
+Example for CPU-only:
+
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+---
+### Run The Notebook
+### Enjoy The Output 
+---
+## My Website 
+https://bharathyalagi.netlify.app/
+---
+# Thank You
 
